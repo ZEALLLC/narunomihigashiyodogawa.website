@@ -155,6 +155,7 @@ ul{ list-style:none; margin:0; padding:0; }
 }
 #hero .badge{
   display:inline-block;
+  max-width:100%;
   background-color:var(--tint-sky);
   color:var(--green);
   font-weight:700;
@@ -208,6 +209,7 @@ ul{ list-style:none; margin:0; padding:0; }
 }
 #page-header .title-wrap{
   display:inline-block;
+  max-width:100%;
   position:relative;
 }
 #page-header h1{
@@ -257,6 +259,7 @@ ul{ list-style:none; margin:0; padding:0; }
   font-weight:700;
   margin:0;
   display:inline-block;
+  max-width:100%;
   position:relative;
   color:var(--brown);
 }
