@@ -645,13 +645,33 @@ section{ padding:70px 0; }
 .nowrap{ white-space:nowrap; }
 
 @media screen and (max-width: 780px){
-  #header nav{ display:none; }
+  #header nav{
+    display:block;
+    order:3;
+    flex-basis:100%;
+    margin-top:6px;
+    padding-top:10px;
+    border-top:1px solid var(--tint-sky);
+  }
+  #header nav ul{ justify-content:center; gap:4px; }
+  #header nav ul li a{ font-size:0.82rem; padding:6px 10px; }
   .sub-service-grid{ grid-template-columns:1fr; }
   .company-table dl{ grid-template-columns:120px 1fr; }
   #hero h1{ font-size:1.6rem; }
   .sub-service .catch{ white-space:normal; }
   .nowrap{ white-space:normal; }
   .flow-list{ grid-template-columns:repeat(2, 1fr); }
+  #hero h1,
+  #hero h1 small,
+  #hero p{ width:100%; }
+  #hero .container{ left:0; }
+  #hero .badge,
+  #hero h1{ left:0; }
+  #hero .hero-img{ left:0; }
+  body{
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
 }
 
 @media screen and (max-width: 480px){
