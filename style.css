@@ -715,7 +715,6 @@ section{ padding:70px 0; }
   #hero h1{ left:0; }
   #hero .hero-img{ left:0; }
   body{
-    word-break: keep-all;
     overflow-wrap: break-word;
   }
 }
